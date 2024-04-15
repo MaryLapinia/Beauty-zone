@@ -1,0 +1,66 @@
+:root {
+  --color-brand-light: #ffffff;
+  --color-brand-normal: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-primary-light: #747272;
+  --color-primary-dark: #4a4a4a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-brand-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hero-title {
+  color: var(--color-brand-normal);
+}
+
+.button {
+  width: 232px;
+  height: 56px;
+  border-radius: 32px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.16;
+  color: white;
+  background-color: var(--color-brand-normal);
+  border: none;
+  padding: 16px 32px;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-brand-normal);
+  color: var(--color-brand-dark);
+}
+
+.link {
+  color: var(--color-brand-dark);
+}
+
+.link:hover {
+  color: var(--color-brand-normal);
+}
+
+.section-title .accent {
+  color: var(--color-brand-normal);
+}
+
+.section-title {
+  color: var(--color-brand-dark);
+}
